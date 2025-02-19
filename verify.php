@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
     session_start();
     if (isset($_SESSION["id"])){
@@ -30,6 +31,8 @@
             ?>      
 
 =======
+=======
+>>>>>>> parent of 95d5368 (work6 (php3))
 <!DOCTYPE html>
 <html lang="en">
 <head>

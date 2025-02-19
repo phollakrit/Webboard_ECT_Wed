@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
     session_start();
 ?>
+=======
+>>>>>>> parent of 95d5368 (work6 (php3))
 =======
 >>>>>>> parent of 95d5368 (work6 (php3))
 <!DOCTYPE html>
