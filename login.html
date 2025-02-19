@@ -1,10 +1,3 @@
-<?php
-session_start();
-if(isset($_SESSION['id'])){
-    header("location:index.php");
-    die();
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,6 +55,7 @@ if(isset($_SESSION['id'])){
     </div>    
 
     <br>
+<<<<<<< HEAD:login.php
     <div style="text-align: center;">ถ้ายังไม่ได้เป็นสมาชิก <a href="register.php">กรุณาสมัครสมาชิก</a></div>    
     </div>
     <script>
@@ -81,5 +75,8 @@ if(isset($_SESSION['id'])){
             }
         }
     </script>
+=======
+    <div style="text-align: center;">ถ้ายังไม่ได้เป็นสมาชิก <a href="register.html">กรุณาสมัครสมาชิก</a></div>    
+>>>>>>> parent of 95d5368 (work6 (php3)):login.html
 </body>
 </html>

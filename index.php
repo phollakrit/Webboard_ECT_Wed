@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <?php
     session_start();
 ?>
+=======
+>>>>>>> parent of 95d5368 (work6 (php3))
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +21,7 @@
     </script>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="container-lg">
     <h1 style="text-align: center;" class="mt-3">Webboard KakKak</h1>   
 
@@ -68,6 +72,24 @@
             }
             $conn=null;
       
+=======
+    <h1 style="text-align: center;">Webboard KakKak</h1>
+    <hr>
+    <form>
+        หมวดหมู่: 
+        <select>
+            <option value="all">--ทั้งหมด--</option>
+            <option value="general">เรื่องทั่วไป</option>
+            <option value="study">เรื่องเรียน</option>
+        </select>
+        <a href="login.html" style="float: right;">เข้าสู่ระบบ</a>
+    </form>
+    <ul>
+        <?php
+        for($i=1;$i<=10;$i++){
+            echo "<li><a href=post.php?id=$i>กระทู้ที่ $i</a></li>";
+        }
+>>>>>>> parent of 95d5368 (work6 (php3))
         ?>
     </table>
     </div>
